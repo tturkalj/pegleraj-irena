@@ -1,0 +1,32 @@
+<section id="cjenik">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-12 text-center">
+                {{ content }}
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <table class="table text-center table-striped">
+                <thead>
+                    <tr>
+                        <th>Artikl</th>
+                        <th>Pranje</th>
+                        <th>Pranje + Peglanje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in page.header.cjenik %}
+                    <tr>
+                        <td>{{ item.artikl }}</td>
+                        <td>{{ item.peglanje }} kn</td>
+                        <td>{{ item.pranjepeglanje }} {% if item.pranjepeglanje != '-' %} kn {% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</section>
+

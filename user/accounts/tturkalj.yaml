@@ -1,0 +1,11 @@
+state: enabled
+email: tturka33@gmail.com
+fullname: 'Tomislav Turkalj'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$azOUFpxYk.A74puiHF2ft.llf3FqdVXxmh8vsrnwzt6hmBDmm6U.K

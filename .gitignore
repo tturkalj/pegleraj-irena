@@ -1,0 +1,8 @@
+/cache/
+/backup/
+/images/
+/logs/
+/user/plugins/admin/*
+/user/plugins/email/*
+/user/plugins/form/*
+/user/plugins/login/*
