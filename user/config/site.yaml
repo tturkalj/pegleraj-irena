@@ -17,7 +17,7 @@ routes: null
 blog:
   route: /blog
 email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+description: 'Pegleraj Irena. Peglaonica Irena.'
 links:
   -
     title: 'O nama'
@@ -31,29 +31,5 @@ links:
 
 social:
   -
-    title: twitter
-    url: 'http://twitter.com/jekyllrb'
-  -
     title: facebook
-    url: null
-  -
-    title: stack-overflow
-    url: 'http://stackoverflow.com/questions/tagged/jekyll'
-  -
-    title: bitbucket
-    url: 'http://bitbucket.org/jekyll'
-  -
-    title: github
-    url: 'http://github.com/jekyll'
-address:
-  -
-    line: '3481 Melrose Place'
-  -
-    line: 'Beverly Hills, CA 90210'
-quicklinks:
-  -
-    title: 'Privacy Policy'
-    url: '#'
-  -
-    title: 'Terms of Use'
-    url: '#'
+    url: 'https://www.facebook.com/Pegleraj-Irena-104472254352082/'

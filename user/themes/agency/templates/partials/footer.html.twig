@@ -2,7 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+                {% set startYear = 2020 %}
+                {% set currentYear = now|date("Y") %}
+                {% if startYear == currentYear %}
+                    {% set copyrightYear = startYear %}
+                {% else %}
+                    {% set copyrightYear = startYear ~ ' - ' ~ currentYear %}
+                {% endif %}
+
+                <span class="copyright">Copyright &copy; {{ site.title }} {{ copyrightYear }}</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
