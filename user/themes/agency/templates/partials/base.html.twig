@@ -7,6 +7,7 @@
   {% include 'partials/metadata.html.twig' %}
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="icon" type="image/png" href="{{ url('theme://img/favicon.png') }}" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
   {% endblock %}
 
   {% block stylesheets %}
@@ -50,5 +51,15 @@
   {% block javascripts_bottom %}
   {{ assets.js('bottom')|raw }}  
   {% endblock %}
+  <!-- START Bootstrap-Cookie-Alert -->
+<div class="alert text-center cookiealert" role="alert">
+    Ova stranica koristi kolačiće kako bi osigurala bolje korisničko iskustvo. Koristeći našu stranicu slažete se s korištenjem kolačića.  <a href="/cookies" target="_blank">Pravila o korištenju kolačića</a>
+
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+        I agree
+    </button>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+<!-- END Bootstrap-Cookie-Alert -->
 </body>
 </html>

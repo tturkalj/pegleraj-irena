@@ -1,22 +1,22 @@
 ---
-title: 'Cjenik'
-menu: 'Cjenik'
+title: Cjenik
+menu: Cjenik
 class: small
 cjenik:
     -
-        artikl: 'Košulja'
+        artikl: Košulja
         peglanje: '10'
         pranjepeglanje: '13'
     -
         artikl: 'Majica dugi/kratki rukav'
         peglanje: '8'
-        pranjepeglanje: '11kn'
+        pranjepeglanje: 11kn
     -
-        artikl: 'Haljina'
+        artikl: Haljina
         peglanje: '15'
         pranjepeglanje: '20'
     -
-        artikl: 'Suknja'
+        artikl: Suknja
         peglanje: '12'
         pranjepeglanje: '15'
     -
@@ -32,23 +32,23 @@ cjenik:
         peglanje: '16'
         pranjepeglanje: '22'
     -
-        artikl: 'Sako'
+        artikl: Sako
         peglanje: '20'
         pranjepeglanje: '-'
     -
-        artikl: 'Baloner'
+        artikl: Baloner
         peglanje: '30'
         pranjepeglanje: '-'
     -
-        artikl: 'Pulover'
-        peglanje: 8'
+        artikl: Pulover
+        peglanje: '8'''
         pranjepeglanje: '11'
     -
-        artikl: 'Trenirka'
+        artikl: Trenirka
         peglanje: '16'
         pranjepeglanje: '20'
     -
-        artikl: 'Potkošulja'
+        artikl: Potkošulja
         peglanje: '4'
         pranjepeglanje: '6'
     -
@@ -60,15 +60,15 @@ cjenik:
         peglanje: '4'
         pranjepeglanje: '5'
     -
-        artikl: 'Spavaćica'
+        artikl: Spavaćica
         peglanje: '8'
         pranjepeglanje: '10'
     -
-        artikl: 'Pidžama'
+        artikl: Pidžama
         peglanje: '8'
         pranjepeglanje: '10'
     -
-        artikl: 'Ogrtač'
+        artikl: Ogrtač
         peglanje: '12'
         pranjepeglanje: '15'
     -
@@ -92,7 +92,7 @@ cjenik:
         peglanje: '2'
         pranjepeglanje: '4'
     -
-        artikl: 'Platha'
+        artikl: Platha
         peglanje: '8'
         pranjepeglanje: '10'
     -
@@ -100,7 +100,7 @@ cjenik:
         peglanje: '10'
         pranjepeglanje: '12'
     -
-        artikl: 'Navlaka'
+        artikl: Navlaka
         peglanje: '8'
         pranjepeglanje: '10'
     -
@@ -108,7 +108,7 @@ cjenik:
         peglanje: '12'
         pranjepeglanje: '14'
     -
-        artikl: 'Jastučnica'
+        artikl: Jastučnica
         peglanje: '4'
         pranjepeglanje: '6'
     -
@@ -124,7 +124,7 @@ cjenik:
         peglanje: '10'
         pranjepeglanje: '15'
     -
-        artikl: 'Nadstolnjak'
+        artikl: Nadstolnjak
         peglanje: '5'
         pranjepeglanje: '8'
     -
@@ -132,7 +132,7 @@ cjenik:
         peglanje: '3'
         pranjepeglanje: '4'
     -
-        artikl: 'Salveta'
+        artikl: Salveta
         peglanje: '3'
         pranjepeglanje: '4'
     -
@@ -151,12 +151,12 @@ cjenik:
         artikl: 'Navlaka za stolac'
         peglanje: '12'
         pranjepeglanje: '15'
+uvjeti:
+    - 'Za količine manje od 5kg vrijede istaknute cijene po komadu'
+    - 'Za količine veće od 5kg usluga se naplaćuje po kilogramu'
+    - 'Peglanje se naplaćuje 15 kuna po kilogramu'
+    - 'Dječja roba do 6 godina - 20 kuna po kilogramu'
+    - 'Preuzimanje robe naplaćuje se 15 kuna'
+    - 'Dostava robe naplaćuje se 15 kuna'
 ---
 
-## Cjenik
-### Za količine manje od 5kg vrijede istaknute cijene po komadu
-### Za količine veće od 5kg usluga se naplaćuje po kilogramu
-### Peglanje se naplaćuje 15 kuna po kilogramu
-### Dječja roba do 6 godina - 20 kuna po kilogramu
-### Preuzimanje robe naplaćuje se 15 kuna
-### Dostava robe naplaćuje se 15 kuna

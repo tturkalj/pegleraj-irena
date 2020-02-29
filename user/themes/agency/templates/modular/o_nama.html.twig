@@ -1,6 +1,9 @@
 <section id="o_nama" class="bg-light-gray">
   <div class="container">
     <div class="row">
+        <img id="logo" src="{{ page.media['logo.png'].url }}" width="500px" heigth="100px"class="center-block img-responsive" alt="">
+    </div>
+    <div class="row">
         <div class="col-lg-12 text-center">
             {{ content }}
         </div>
@@ -30,7 +33,11 @@
     </div>
     <div id="slike" class="row">
         {% for slika in page.header.slike %}
+            {% if attribute(slika, 'last') %}
+            <div class="col-md-4 col-sm-6 col-md-offset-4">
+            {% else %}
             <div class="col-md-4 col-sm-6 portfolio-item">
+            {% endif %}    
                 <img src="{{ page.media[slika.img].url }}" class="img-responsive" alt="">
             </div>
 

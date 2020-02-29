@@ -8,9 +8,8 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-        console.log($($anchor.attr('href')).offset().top);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 50
+            scrollTop: $($anchor.attr('href')).offset().top - 55
         }, 500, '');
         event.preventDefault();
     });

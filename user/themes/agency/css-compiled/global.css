@@ -6035,19 +6035,32 @@ body {
 .contact-link {
   padding: 50px;
 }
+
 /* .contact-link a{
   text-decoration: none;
   color: #fec503;
 } */
+
 #o_nama{
   padding:130px 0px 50px;
 }
+
 #o_nama p{
   font-size: 15px;
 }
+
+#logo{
+  padding-bottom: 20px;
+}
+
 th {text-align:center}
+
 .row h3{
   margin: 11px 0px;
+}
+
+#paketi{
+  padding-top:0px;
 }
 /*# sourceMappingURL=global.css.map */
 
