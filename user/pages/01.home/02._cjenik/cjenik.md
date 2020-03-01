@@ -10,7 +10,7 @@ cjenik:
     -
         artikl: 'Majica dugi/kratki rukav'
         peglanje: '8'
-        pranjepeglanje: 11kn
+        pranjepeglanje: '11'
     -
         artikl: Haljina
         peglanje: '15'
@@ -41,7 +41,7 @@ cjenik:
         pranjepeglanje: '-'
     -
         artikl: Pulover
-        peglanje: '8'''
+        peglanje: '8'
         pranjepeglanje: '11'
     -
         artikl: Trenirka
